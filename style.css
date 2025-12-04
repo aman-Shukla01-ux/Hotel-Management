@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.page-colour{
+    background-color: #f9af6e; 
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    width:900px;
+    height:500px;
+    display: flex;
+   border-radius: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   overflow: hidden;
+   border-radius: 10px;
+}
+/* These are left side property inside box */
+.box1{
+    width:450px;
+    background-color: white;
+}
+#heading{
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 5px;
+    color: #f97705;
+}
+#email{
+    margin-left: 20px;
+    width: 400px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+#password{
+     margin-left: 20px;
+    width: 400px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(141, 132, 132);
+    display: none;
+}
+#user-login{
+    width: 405px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #f97705;
+    border-radius: 5px;
+}
+#sign-up{
+    padding-left:80px;
+    margin-bottom: 50px;
+    position: fixed;
+    top: 460px;
+    left: 35px;
+}
+/* these are right side property inside of box */
+.box2{
+    width: 450px;
+    background-color: #f97705;
+}
+#welcome{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+}
+#trails{
+   width: 405px;
+    height: 40px;
+    margin-left: 125px;
+    background-color: #f97705;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+#sendOTP{
+      width: 405px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #f97705;
+    border-radius: 5px; 
+}
+    #Loader1{
+      width: 20px;
+      height:20px;
+      border: 4px solid black;
+      border-radius: 100%;
+      border-top-color: white;
+       animation: Aman 1s linear infinite;
+       margin-left: 30px;
+       display: none;
+    }
+    @keyframes Aman{
+      from{
+transform: rotate(0deg);
+      }
+      to{
+transform: rotate(360deg);
+      }
+    }
+#enterOTP{
+      margin-left: 20px;
+    width: 400px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 10px;
+  display: none;
+}
+#verifyOTP{
+width: 405px;
+height: 40px;
+margin-left: 20px;
+padding-left: 5px;
+border-radius: 5px;
+background-color: #f97705;
+display: none;
+}
+#alert{
+    padding-left: 30px;
+}
+#result{
+    color: green;
+    padding-left: 20px;
+}
+
+#password-alert{
+    padding-left: 30px;
+    display: none; 
+    font-size: 12px;
+    color: #57606A;
+}
+#confirm-password{
+   margin-left: 20px;
+    width: 400px;
+    height: 40px;
+    padding-left: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: none;
+}
+#password-matching{
+    
+    padding-left: 10px;
+     font-size: 14px;
+list-style: none;
+}
+#create-password{
+width: 405px;
+height: 40px;
+margin-left: 20px;
+padding-left: 5px;
+border-radius: 5px;
+background-color: #f97705;
+display: none;
+}
+/* Home page */
+.navbaar{
+width: 100%;
+height: 100px;
+background-color: #f97705;
+gap: 10px;
+
+}
+#manu_bar{
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: #f97705;
+    border: none;
+    font-size: 30px; 
+}
+#list{
+    transform: translateX(-500px);
+    transition: all,0.5s ease;
+    width: 22%;
+    background-color: #e57410;
+}
+
+#list.active{
+    transform: translateX(0);
+}
+#menu{
+width: 300px;
+height: 50px;
+}
+#Tables{
+width: 300px;
+height: 50px;
+}
+#Staff{
+width: 300px;
+height: 50px;
+}
+#Current-orders{
+width: 300px;
+height: 50px;
+}
+#Today-histroy{
+width: 300px;
+height: 50px;
+}
+/* Menu page */
+.item{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+}
+#imgContainer img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 10px;
+      border: 2px solid #333;
+    }
+    button {
+      padding: 8px 15px;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+
+/*menu page */
